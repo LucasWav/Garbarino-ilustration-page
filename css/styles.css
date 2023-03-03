@@ -72,7 +72,7 @@ header{
     display: flex;
     width: 300%;
     padding: 0;
-    animation: slide 18s infinite alternate;
+    animation: slide 12s infinite alternate;
 }
 
 .slide img{
@@ -109,6 +109,7 @@ header{
     font-size: 1.6rem;
     text-align: center;
     background-color:  rgba(245,245,245,255);
+    position: relative;
 }
 .interactive_slider--promotion-text{
     margin: 3rem 0;
@@ -179,15 +180,15 @@ header{
     border: none;
     font-size: 10rem;
     position: absolute;
-    top: 165%;
-    left: 0;
+    top: 50%    ;
+    left: 0%;
 }
 .interactive_slider--right-button{
     color: #e42729;
     border: none;
     font-size: 10rem;
     position: absolute;
-    top: 165%;
+    top: 50%;
     right: 0;
 }
 
