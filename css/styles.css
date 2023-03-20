@@ -123,7 +123,7 @@ header{
     text-decoration: none;
     color: rgba(79,168,230,255);
 }
-.interactive_slider--slide{
+.interactive_slider--slide-container{
     border: 0.1rem solid #8080807d;
     margin: 0 auto;
     width: 70%;
