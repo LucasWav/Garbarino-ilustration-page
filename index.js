@@ -1,11 +1,10 @@
 const leftButton = document.getElementById('left-button')
 const rightButton = document.getElementById('right-button')
 const buyButton = document.getElementById('buy-button')
-const interactiveSliderContainer = document.getElementById('interactive-slider-container')
-
+let interactiveSliderContainer = document.getElementById("interactive-slider-container")
 
 class Tvs{
-    constructor(model, picture, description, price,){
+    constructor(model, picture, description, price){
         this.model = model
         this.picture = picture
         this.description = description
@@ -51,6 +50,14 @@ function iniciarWebPage() {
             </span>
             <button id="buy-button" class="interactive_slider--buy-button" >
                 ¡COMPRALO AHORA!
+            </button>
+        </div>
+        <div class="interactive_slider--move-buttons">
+            <button id="left-button" class="interactive_slider--left-button">
+                &lsaquo;
+            </button>
+            <button id="right-button" class="interactive_slider--right-button">
+                   &rsaquo;
             </button>
         </div>
         `
