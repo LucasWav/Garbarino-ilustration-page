@@ -213,6 +213,15 @@ header{
     grid-column: 1/4;
 }
 
+/* Footer */
+.footer{
+}
+.promotion-text{
+    text-align: center;
+    font-weight: 400;
+}
+
+
 
 @keyframes slide{
     0% {margin-left: 0%;}
