@@ -284,6 +284,18 @@ header{
 .indice div{
     margin: 3rem;
 }
+/*Copyright section*/
+.copyright-title{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.copyright-text{
+    font-size: 1.3rem;
+}
+.copyright-images{
+    display: flex;
+}
 
 
 
