@@ -296,6 +296,9 @@ header{
 .copyright-images{
     display: flex;
 }
+.copyright-images img{
+    max-width: 20%;
+}
 
 
 
